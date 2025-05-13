@@ -3,7 +3,7 @@
 - [x] Prevent next button from resetting the scroll in registration form inside /event/
 - [x] Implement skeleton loading
 - [x] Disable “End Date” picker when “Till Late” is selected.
-- [ ] Show preview of uploaded event banner image.
+- [x] Show preview of uploaded event banner image.
 - [ ] Display filename and file size below or beside the event banner image.
 - [ ] Replace bold, italic, and bullet buttons with shadcn toggle group components.
 - [ ] Allow users to select a location via a map.
@@ -13,15 +13,16 @@
 - [x] Fix ticket creation and editing behavior.
 - [x] Ensure correct currency symbol appears based on selected 3-letter currency code.
 - [ ] Update visibility icon to reflect current selection (Public vs Private).
-- [ ] Use preset color palettes throughout the app.
+- [x] Use preset color palettes throughout the app.
 - [ ] Make hours and minutes scrollable in datetimepicker component
 - [ ] Ensure AM/PM selection works properly in datetimepicker component.
 - [ ] Make sure the design colors of skeleton card is the same as the unloaded image skeleton part
-- [ ] Allow inviters, tickets, payments, socials, and locationforms to render data table
+- [x] Allow inviters, tickets, payments, socials, and location forms to render data table
 - [ ] Use form actions for draft, and adding event
 - [ ] Ensure form state is synced and submitting properly.
 - [ ] Implement full form validation.
 - [x] Persist event creation form data when tab refreshed or navigated away (save to sessionStorage)
+- [ ] Replace tabs with select dropdown for ticketing
 
 **Onboarding**
 - [ ] After signing in, always redirect users to /onboarding until onboarding is complete (enforce using hooks.server.ts).
