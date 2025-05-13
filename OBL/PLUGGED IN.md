@@ -17,3 +17,18 @@ Reach out to execs to:
 - When should we start posting?
 - Are there key dates or milestones?
 - What content do we need in advance?
+
+
+---
+
+# PLUGGED IN
+Venue: Facebook and Instagram
+- Through videos and posters
+
+
+Purpose:
+- When is the due date of the project?
+- When is the due date of our SW tasks?
+
+## GOSM Sheets
+
