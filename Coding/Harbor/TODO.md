@@ -30,7 +30,7 @@
 **Mobile UI**
 - [x] Make the “Add Tickets” drawer scrollable for smaller screens (e.g., Nest Hub).
 - [ ] Fix navigation burger menu toggle.
-
+- [ ] 
 **Chore**
 - [x] Organize fields
 - [ ] Organize all components
