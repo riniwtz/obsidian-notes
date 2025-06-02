@@ -1,7 +1,26 @@
-Random variable is a function that associates a real number to each element of the sample space of an experiment. It is usually denoted by uppercase letters.
+- Discrete or Continuous
+---
+
+Random variable is a function that associates a real number to each element of the sample space of an experiment. It is usually denoted by 
+
+A **random variable** is just a way to assign numbers to possible outcomes of something random.
+    
+This helps us **measure**, **analyze**, and **make predictions** using probability and statistics.
+    
+It’s often written with capital letters like **X**, **Y**, or **Z**.
 
 ## Example #1
 In tossing a coin twice, let $X$ be a random variable that indicates the number of heads. What are the possible values of $X$?
+
+In tossing a coin twice, let $Y$ be the value in multiplying the number of tails with $3$ then subtract it by $1$.
+
+In tossing a coin twice, let $Z$ be the value of the square root of the number of heads minus one.
+
+| s   | hh           | ht           | th           | tt           |
+| --- | ------------ | ------------ | ------------ | ------------ |
+| z   | $\sqrt{2-1}$ | $\sqrt{1-1}$ | $\sqrt{1-1}$ | $\sqrt{0-1}$ |
+|     | $            |              |              |              |
+
 
 ## Example #2
 In tossing a coin twice, let $Y$ be a random variable that is 1 if the result is a double and 0 otherwise. What are the possible values of $Y$?
@@ -27,8 +46,10 @@ $Z$ - the square root of daily temperature (in Celsius) of Japan for a week.
 # Discrete Random Variable
 - a random variable is said to be discrete if it could take on only a **finite** of **countably infinite** number of possible values.
 
+
 # Continuous Random Variable
 - a random variable is said to be continuous if it could take on any value within a given **finite** or **infinite** range of possible values.
+
 
 
 ## Example 6
@@ -137,3 +158,19 @@ a. Verify that $f(x)$ satisfies the properties of pdf
 b. Find $P(1.5 \leq X \leq 2)$
 c. Find $P(X = 2)$
 
+
+
+# Lecture 2. Mean and Variance of a Discrete Random Variable
+Example 1. Let $X$ be a discrete random variable with probability mass function given by the table below.
+
+
+| $x$    | $-1$          | $0$           | $2$           | $4$           |
+| ------ | ------------- | ------------- | ------------- | ------------- |
+| $p(x)$ | $\frac{1}{7}$ | $\frac{3}{7}$ | $\frac{2}{7}$ | $\frac{1}{7}$ |
+**Give the probability that $x$ assumes a positive value**
+$$P(x=)$$![[Screenshot 2025-05-19 at 1.07.04 PM.png]]
+
+![[Screenshot 2025-05-19 at 1.39.09 PM.png]]
+
+
+# Discrete Probability Distribution

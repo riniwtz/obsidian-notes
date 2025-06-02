@@ -1,5 +1,5 @@
 # Step #1: Prepare Data
-```
+```typescript
 type Payment = {
 	id: string;
 	amount: number;
