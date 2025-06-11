@@ -193,9 +193,12 @@ Payments (Optional)
 - [ ] Clicking and viewing events must go back to its previous page history with the "Explore Events" button
 - [ ] Add name, username, bio, socials, and school edit profile limit logic validations, and its display.
 - [ ] Increase top padding for header
-- [ ] Change name, description, due date to "Ticket Name", "Ticket Description", "Deadline"
-- [ ] Change "Form Information" to "Information Needed to Collect"
+- [x] Change name, description, due date to "Ticket Name", "Ticket Description", "Deadline"
+- [x] Change "Form Information" to "Information Needed to Collect"
 - [ ] Add Optional Indicator to "House Rules"
+- [x] Change location type and its ui to "venueName" and "city" only
+- [ ] Add 'To Be Announced', 'Onwards', 'Till Late', 'All Day', 'Not Available', ''
+- [ ] Check image url in profile if it still valid, exist, and the response is 200 (GOOD), otherwise fallback to user icon.
 
 **Bugs**
 - When signing up, there's no name in (`/welcome`) and cannot access (`/profile`)
