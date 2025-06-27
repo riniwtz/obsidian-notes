@@ -73,4 +73,90 @@ Composition
 
 ### Types of Association
 1. Directed
-2. 
+
+
+---
+**June 20, 2025**
+
+
+	**Association**
+	- Bidirectional
+	- Reflexive
+	
+	Aggregation
+	Composition
+	Inheritance
+
+**Association** - Bidirectional
+- Back and forth arrows between classes
+- E.g. Both classes have the same method that accepts the instance of the other class as params.
+
+```java
+public class Player {
+	public void attack(Enemy enemy) {
+		enemy.receiveDamage();
+	}
+}
+
+public class Enemy {
+	public void attack(Player player) {
+		player.receiveDamage();
+	}
+}
+```
+
+**Association** - Reflexive
+- E.g. Relationship to itself. Function has a instance parameter accepting itself 
+
+```java
+public class Player {
+	private double health;
+	private double healAmount;
+	
+	public void heal(Player player) {
+		player.setHealth(player.getHealth() + this.healAmount);
+	}
+
+	// ...
+}
+```
+
+**Aggregation** (Diamond Unshaded) (Weapon part of Character)
+- The class has an instance attribute or field and a method accepting that field of another class.
+```java
+public class Character {
+	private Weapon weapon = null;
+
+	public void equip(Weapon weapon) {
+		this.weapon = weapon;
+	}
+
+	// ...
+}
+
+public class Weapon {
+	private double attackValue;
+	public double getAttackValue() {
+		return this.attackValue;
+	}
+}
+```
+
+**Composition** (Diamond Shaded) (Inventory has <> Character)
+- E.g. Other instance attribute is instantiated during the current class constructor initialization.
+```java
+public class Character {
+	private Inventory inventory;
+	public Character() {
+		this.inventory = new Inventory();
+	}
+}
+
+public class Inventory {
+	// ...
+}
+```
+
+
+\* = Multiplicity?
+1 = 

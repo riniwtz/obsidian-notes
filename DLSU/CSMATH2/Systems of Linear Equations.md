@@ -85,6 +85,10 @@ If the properties follow only 1, 2, and 3, it is considered as "**Row Echelon Fo
 ### 2x2 Matrix
 ### nxn Matrix
 
+
+### Determinants
+
+
 ---
 
 
@@ -100,9 +104,21 @@ If the properties follow only 1, 2, and 3, it is considered as "**Row Echelon Fo
 - Partitions in Augmented Matrix
 	- Partitions are the separated area in an augmented matrix, it refers to the left and right partitions.
 
-
-
-
 # Gaussian Elimination
 # Gauss-Jordan Reduction
 
+
+---
+
+$$\left[\begin{array}{ccc|ccc}1&2&3&1&0&0\\0&1&4&0&1&0\\0&0&2&0&0&1\end{array}\right]$$
+
+
+Here’s the RREF form (no need to perform actual row reduction):
+
+  
+
+$$\left[ \begin{array}{cccccccc} \boxed{1} & 0 & 0 & 0 & 0 & * & * & * \\ 0 & \boxed{1} & 0 & 0 & 0 & * & * & * \\ 0 & 0 & \boxed{1} & 0 & 0 & * & * & * \\ 0 & 0 & 0 & \boxed{1} & 0 & * & * & * \\ 0 & 0 & 0 & 0 & \boxed{1} & * & * & * \\ \end{array} \right]$$
+
+---
+
+### **🔍 Column Analysis:**

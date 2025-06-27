@@ -14,3 +14,13 @@ Hello and good \[afternoon / evening] po \[kuya/ate] \[name]!
 I will make sure to return the uniform asap in good condition and handwashed po.
 
 Thank you po!
+
+
+Hello and Good afternoon po kuya Sky!
+
+I would like to ask if it's okay po to borrow your jacket po for the PM game of Men's Basketball vs NU at Wednesday, June 25, 2025 (Tomorrow 4:00 PM) po. I will make sure to return the uniform asap in good condition and handwashed po.
+
+Thank you po!
+
+
+---
