@@ -58,3 +58,23 @@
 - inviters
 - tickets
 - payments
+---
+
+June 30, 2025
+
+**Profile Page**
+- [x] Searching events not working
+- [x] Add another header variant for `/profile`
+
+**Create Events Page**
+- [ ] Add error validations for creating events
+- [ ] Fix publishing events
+
+**Guest List Page**
+- [ ] Allow status dropdowns
+- [ ] Fix column viewing options
+- [ ] Add "Export CSV" and "Export XLSX" button
+- [x] Add delete row action
+- [ ] Add filter
+- [ ] Make emails clickable
+- [ ] Make instagram handles clickable
