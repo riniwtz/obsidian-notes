@@ -1,0 +1,2 @@
+
+hello my name is rintaro iwata from bscs-st, you may call me "rin", and i am half-japanese, my expectations for this course is that it would humble me and teach me how to be better with creating and analyzing algorithms. based on the previous lectures and discussions, my expectations for the professor is that he is cool, and very engaging and entertaining which keeps me focused and opens my eye everytime. my favorite game is counter-strike 2, and my favorite japanese food is ramen and tonkatsu.
